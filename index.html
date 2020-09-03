@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my rich web applcation</title>
+
+  </head>
+  <header>
+  my notes application
+  </header>
+
+
+  <body>
+
+    <!--where user types note -->
+    <textarea name="name" rows="8" cols="80" id="note-content"></textarea>
+<br>
+
+<!--my selector list for what colour each stick note will be -->
+<select id ="colourselect" >
+
+
+  <option value="red">red</option>
+  <option value="blue">blue</option>
+  <option value="orange">orange</option>
+  <option value="pink">pink</option>
+</select>
+
+<!--Button to submit whats inside the text area -->
+    <button id ="submit" type="button" onclick="createSticky()"> save note to a sticky note </button>
+
+<br>
+<br>
+
+<div id="main">
+
+
+</div>
+
+
+
+<script type="text/javascript" src="notes.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+  </body>
+</html>
